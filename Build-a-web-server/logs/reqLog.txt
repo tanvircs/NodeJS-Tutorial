@@ -1,0 +1,7 @@
+20230905	23:49:37	d100bcce-335b-4adf-911f-b76dc59eaf12	/new-page.html	GET
+20230905	23:49:37	fb8515a2-8604-4cf9-bbae-363a60341fa3	/css/style.css	GET
+20230905	23:49:37	e4145103-c026-4fee-b97b-cbcc943444ac	/img/img1.jpg	GET
+20230905	23:51:07	68fa0a74-a0bd-4d89-90fe-ab45ad2733fa	/new-page.html	GET
+20230905	23:51:25	c5ea653f-dbf7-486f-8f26-f03b0c747cc7	/new-page.html	GET
+20230905	23:51:25	d95dfd06-efa1-4e4b-8af0-cb992058447d	/css/style.css	GET
+20230905	23:51:25	fcc65117-9c7a-4ac3-bc17-1635c952ca85	/img/img1.jpg	GET
