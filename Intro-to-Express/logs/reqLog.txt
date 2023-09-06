@@ -1,0 +1,3 @@
+20230906	00:05:22	7e40607a-b58f-4833-b3a4-eadd8dc8d64b	/new-page.html	GET
+20230906	00:05:22	f226ef0d-9b17-40c5-8ba3-530218c91d2c	/css/style.css	GET
+20230906	00:05:22	d3f017e9-b76e-455d-9355-0f134a4e994a	/img/img1.jpg	GET

@@ -1,0 +1,4 @@
+20230905	23:48:16	c97d025f-e213-45bf-a98f-ecdecca1be67	/newpage.html	GET
+20230905	23:48:17	cc930871-82dd-460e-b610-f37a4b9a5edd	/css/style.css	GET
+20230905	23:48:17	eb0e54e9-2852-4fa6-be08-9e0e54982efd	/favicon.ico	GET
+20230905	23:51:07	1d3cfcb6-b206-4c9d-b554-245eb94420d5	TypeError: fsPromises.readFil is not a function
