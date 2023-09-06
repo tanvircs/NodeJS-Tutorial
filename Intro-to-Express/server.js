@@ -16,10 +16,6 @@ app.get("/old-page(.html)?", (req, res) => {
   res.redirect(301, "/new-page.html");
 });
 
-// app.get("/*", (req, res) => {
-//   res.status(404).sendFile(path.join(__dirname, "views", "404.html"));
-// });
-
 //route handlers
 app.get(
   "/hello(.html)?",
@@ -31,4 +27,27 @@ app.get(
     res.send("Hello World!");
   }
 );
+
+// chaining route handler
+const one = (req, res, next) => {
+  console.log("one");
+  next();
+};
+
+const two = (req, res, next) => {
+  console.log("two");
+  next();
+};
+
+const three = (req, res) => {
+  console.log("three");
+  res.send("Finished");
+};
+
+app.get("/chain(.html)?", [one, two, three]);
+
+app.get("/*", (req, res) => {
+  res.status(404).sendFile(path.join(__dirname, "views", "404.html"));
+});
+
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
